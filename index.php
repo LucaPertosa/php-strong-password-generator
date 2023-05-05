@@ -15,6 +15,10 @@
                     <div class="form-group"> 
                         <label for="pswleng">Lunghezza password:</label> 
                         <input type="number" class="form-control" id="pswleng" name="pswleng" step="1">
+                        <input type="checkbox" name="upper_letters" value="1"> Lettere Maiuscole<br>
+                        <input type="checkbox" name="numbers" value="1"> Numeri<br>
+                        <input type="checkbox" name="symbols" value="1"> Simboli<br><br>
+                        <input type="checkbox" name="repeat_chars" value="1"> Ripeti Caratteri<br><br>
                     </div> 
                 </div> 
                 <div class="col-2 pt-4"> 
